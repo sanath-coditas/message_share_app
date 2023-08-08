@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/messageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter some value"
+
+        />
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Navigate to next Screen" />
+
+    <Button
+        android:id="@+id/btnShareToOtherApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share to other app" />
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobbies" />
+
+</LinearLayout>
